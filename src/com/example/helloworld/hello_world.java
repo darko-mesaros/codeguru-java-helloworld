@@ -5,5 +5,9 @@ public class hello_world {
         System.out.println("Hello Sarajevo");
         String password;
         password = "password123";
+
+        MyClass c = new MyClass();
+        c = null;
+        return c.GetMessage();
     }
 }
